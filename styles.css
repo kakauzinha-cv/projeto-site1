@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+   Definição de variáveis
+*/
+
+:root {
+     --cor-principal: #3c1ee4;
+}
+/*
+  *significa os elementos
+*/
+
+*  {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul>li:nth-child(even) {
+   background-color:  #ddd
+}
+
+.caixa-formatada{
+   background-color: var(--cor-principal);
+   color: #fff;
+   border-radius: 20px;
+   padding: 10px;
+
+
+}
